@@ -23,4 +23,6 @@ There are 6 commands in `_m`. Here they are:
 
 `x` - this command sets the value of a cell to *0*.
 
-Each program is built up of **pages**, which are each individual files. Each **page** can have at most one conditional, one movement, and one value command. At the end of a file, there is a filename enclosed in two |s.
+Each program is built up of **pages**, which are each individual files. Each **page** can have at most one conditional, one movement, and one value command. At the end of a file, there is a filename enclosed in two *|*s.
+
+Now, you may be wondering how you can get input, or how you can output information, and the answer is complicated. To input information, you have to make a seires of input pages that input data into some cells. The solution of the next problem is integrated into the interpreter. At the end of a program, the values of each cell are printed out. To output characters, you simply have to encode them into binary, and then have the user of your program decode them.
