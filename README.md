@@ -1,7 +1,7 @@
 # _m
 ## A Language
 
-`_m` is an esoteric interpreter language that simulates the **turing machine**. It's goal is to minimize the size of an interpreter while still being **turing complete**.
+`_m` is an esoteric interpreter language that simulates the **turing machine**. It's goal is to create a simple **turing complete** language that can be expanded to more complex structure.
 
 There are 6 commands in `_m`. Here they are:
 
