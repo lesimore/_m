@@ -1,4 +1,4 @@
-# _m
+# _m (in progress)
 ## A Language
 
 `_m` (pronounced "underscum") is an esoteric interpreter language that simulates the **turing machine**. It's goal is to create a simple **turing complete** language that can be expanded to more complex structure.
