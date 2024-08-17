@@ -23,6 +23,6 @@ There are 6 commands in `_m`. Here they are:
 
 `x` - this command sets the value of a cell to *0*.
 
-Each program is built up of **pages**, which are each individual files. Each **page** can have at most one conditional, one movement, and one value command. At the end of a file, there is a filename enclosed in two *|*s.
+Each program has lines in it, and each line can contain a condition, movement, and/or value. The end of each line starts with either a %, for a line number to jump to, or a *, for a line name to jump to. Then, you can append the number or name. You can also name a line by appending a > to the end followed by the name.
 
-Now, you may be wondering how you can get input, or how you can output information, and the answer is complicated. To input information, you have to make a seires of input pages that input data into some cells. The solution of the next problem is integrated into the interpreter. At the end of a program, the values of each cell are printed out. To output characters, you simply have to encode them into binary, and then have the user of your program decode them.
+The program that is provided in this repo can be imported in a C file to make an interface.
